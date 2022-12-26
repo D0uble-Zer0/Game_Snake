@@ -2,7 +2,7 @@ import Library_Snake as snake_objs
 import time
 
 delay=0.1
-color_wnd='light green'
+color_wnd='#333333'
 color_head='blue'
 color_snake='brown'
 color_food='red'

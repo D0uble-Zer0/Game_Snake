@@ -51,7 +51,7 @@ class Snake:
 
     def check_error(self):
         for i in range(1, len(self.snake)):
-            if self.snake[0].distance(self.snake[i]) < 10:
+            if self.snake[0].distance(self.snake[i]) < 18:
                 return False
         return True
 
@@ -103,7 +103,7 @@ class Screen:
     def end_game(self):
         end_text = t.Turtle()
         end_text.hideturtle()
-        end_text.color('Blue')
+        end_text.color('Red')
         end_text.penup()
         end_text.goto(-150, 200)
         end_text.write('This game is end', font=('Time New Romain', 20))
